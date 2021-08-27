@@ -1,8 +1,6 @@
 const button = document.querySelector("#btn");
 const textAreaInput = document.querySelector("#textarea-input");
 const textAreaOutput = document.querySelector("#textarea-output")
-
-
 let serverURL = "https://api.funtranslations.com/translate/minion.json"; 
 
 function translateUrl(input) {
@@ -11,7 +9,7 @@ function translateUrl(input) {
 
 function handleError(error) {
     console.log("Error has occured", error)
-    alert("Please try agian somthing went wrong.")
+    alert("Please try agian. It seems the server is down 😭😭😭")
 }
 
 
